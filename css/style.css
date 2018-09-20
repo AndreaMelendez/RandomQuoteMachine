@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+h1{
+  color: white;
+}
+
+#author{
+  font-style: italic;
+}
+
+#tweet-quote{
+  color: white;
+  background-color: blue;
+}
+
+.quoteContainer {
+  background: rgba(255, 255, 255, .25);
+  padding: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 25px;
+  font-size: 1.25em;
+  padding-bottom: 2%;
+  position:relative;
+  width:450px;
+  background-color:#fff;
+}
+
+body {
+  background-color: #333;
+  color: #333;
+  background: url(http://k32.kn3.net/taringa/3/0/3/4/B/9/KonahsFvZ/D3A.jpg) no-repeat center center fixed;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight:400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.footer {
+  width:450px;
+  text-align:center;
+  display:block;
+  margin:15px auto 30px auto;
+  font-size:0.8em;
+  color:white;
+  a {
+    font-weight:500;
+    text-decoration:none;
+    color:#fff;
+  }
+}
